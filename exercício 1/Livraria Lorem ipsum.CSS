@@ -1,0 +1,181 @@
+* {margin: 0%; padding: 0%;}
+
+/*
+* Area da pagina
+*/
+
+#page {
+    width: 800px;
+}
+
+/*
+ * Fonte e background
+ */
+
+body {
+    background-image: url(images/fundo3.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+    font-family: arial, verdana, courier;
+}
+
+/*
+ * Cabeçalho
+ */
+
+header {
+    height: 80px;
+    display: flex;
+    background-image: url(images/fundo_cab.jpg);
+    background-repeat: no-repeat;
+}
+
+header img {
+    float: left;
+    margin-top: 5px;
+}
+
+h1 {
+    margin-top: 15px;
+    color: rgb(84, 32, 4);
+    text-indent: 10px;
+    padding-top: 8px;
+}
+
+#right, #center, #left { margin-top: 5px; }
+/*
+* Barra de navegação
+*/
+
+nav {
+    color: rgb(95, 32, 16);
+    margin-left: 20px;
+}
+
+/*
+* Menu de categorias
+*/
+
+#left {
+    float: left;
+    width: 120px;
+    height: 560px;
+    background-image: url(images/menu_esq_bg.jpg);
+}
+
+#left li {
+    list-style: url(images/seta_menu.gif);
+    list-style-position: inside;
+    border-bottom: 1px rgb(46, 12, 12) solid;
+    background-color: orange;
+    height: 30px;
+}
+
+#left a {
+    color: rgb(95, 32, 16);
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+span.Categoria {
+    margin-left: -5px;
+    position: absolute;
+    margin-top: 7px;
+    text-decoration: underline;
+}
+
+span.Categoria:hover {
+    color: black;
+}
+
+/*
+* Top 5
+*/
+
+#right {
+    float: right;
+    width: 120px;
+    height: 555px;
+    border: 2px rgb(95, 32, 16) dotted;
+}
+
+#right li {
+    list-style: none;
+    list-style-position: inside;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+/*
+* Destaque
+*/
+
+#Destaque {
+    height: 80px; width: 350px;
+    border-bottom: 2px orange solid;
+    display: flex;
+}
+
+h3 {
+    color: rgb(95, 32, 16);
+    width: 200px;
+    font-size: 30px;
+    padding-top: 25px;
+    margin: 0px 0px 0px 40px;
+}
+
+#center {
+    margin-left: 10px;
+    float: left;
+}
+
+table {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 490px;
+}
+
+td {
+    text-align: center;
+    border-bottom: 2px rgb(198, 189, 189) dashed;
+    font-size: 15px;
+    color: rgb(95, 32, 16);
+}
+
+.preço {
+    color: rgb(241, 179, 22);
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+img.comprar { border: none; }
+
+.Tamanho {
+    width: 100px;
+    height: 150px;
+}
+
+/*
+* Menus laterais
+*/
+h2 {
+    text-align: center;
+    background-color: rgb(95, 32, 16);
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*
+*Roda pé
+*/
+
+.quebra {clear: both;}
+
+footer {
+    background-color: rgb(95, 32, 16);
+    width: 800px;
+    height: 16px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,39 @@
+
+/*
+ * Textos do menu
+ */
+
+ #menu { font-size: 15px; }
+
+/*
+ * Comando que permite que os itens do menu apareçam lado a lado como blocos
+ */
+
+ #menu li {
+    display: block;
+    float: left;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    background-color:rgb(113, 56, 25) ;
+    padding: 5px 0px;
+    width: 150px;
+    text-align: center;
+}
+
+ /*
+ * Estilizar os links do menu
+ */
+
+ #menu li span, #menu li a {
+    color: rgba(0, 0, 0, 0.901);
+    text-decoration: none;
+}
+
+/*
+* Efeito quando passar o mouse em cima do texto
+*/
+
+#menu li:hover {
+    background-color: rgb(181, 178, 178);
+    cursor: pointer;
+}
